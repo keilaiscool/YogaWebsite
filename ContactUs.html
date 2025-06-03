@@ -1,0 +1,56 @@
+<html>
+<body>
+    <head>
+        <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ContactUs</title>
+        <link rel="stylesheet" href="wellnessyoga.css">
+        <script src="WellnessYoga.js"></script>
+    </head>
+<header>
+    <nav>
+        <ul>
+            <li><a href="WellnessYoga.html">Home</a></li>
+           <li>
+            <a href="membership.html">Schedule A Class</a>
+            <ul class="dropdown">
+                <li><a href="yogaclass.html">Yoga Classes</a></li>
+                <li><a href="membership.html">Yoga Membership Specials</a></li>
+            </ul>
+           </li>
+           <li><a href="FAQ.html">FAQ</a>
+            <ul class="dropdown">
+                <li><a href="MeetInstructor.html">Meet Your Instructor</a></li>
+                <li><a href="FAQ.html">Frequently Asked Questions</a></li>
+            </ul>
+            </li>
+           <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+</nav>
+</header>
+
+<Section class="CU">
+    <div class="Contact">
+            <div>
+              <h1>Contact Us</h1>
+              <p>Feel free to contact us!</p>
+            </div>
+              <div >
+                <form id="formc">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your first name">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="user@email.com">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something here.." style="height:170px"></textarea>
+                   <button onclick="displaySentence()">Submit</button>
+                </form>
+              </div>
+    </div>
+</Section>
+
+
+</body>
+</html>
